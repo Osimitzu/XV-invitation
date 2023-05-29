@@ -4,7 +4,8 @@
 
 /*Other css file imports*/
 @import url("sections/header.css");
-@import url('sections/intro.css');
+@import url("sections/intro.css");
+@import url("sections/countDown.css");
 /*Other css file imports*/
 
 /* Variables */

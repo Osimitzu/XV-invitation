@@ -1,0 +1,83 @@
+.countDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.countDown__frontPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.countDown__frontTitle h2 {
+  text-align: center;
+  font-family: var(--title-dancing);
+  color: var(--light-pink);
+  font-size: 40px;
+}
+
+.countDown__frontPage.hide {
+  display: none;
+}
+
+#count {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+.simply-section {
+  background: var(--light-pink);
+  opacity: 0.4;
+  width: 75px;
+  height: 75px;
+  margin: 0 5px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simply-amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: var(--text-roboto);
+  color: var(--text-color2);
+  font-weight: 700;
+}
+
+.simply-word {
+  display: flex;
+  font-size: 15px;
+  font-family: var(--text-roboto);
+  color: var(--text-color2);
+  font-weight: 500;
+}
+
+.countDown__backPage {
+  display: none;
+}
+
+.countDown__backPage.show {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countDown__backTitle h2 {
+  text-align: center;
+  font-family: var(--title-dancing);
+  color: var(--light-pink);
+  font-size: 50px;
+}

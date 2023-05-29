@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
+    <!-- imagen de fondo -->
     <div class="background-image">
-      <img src="/assets/background.png" alt="background" data-aos="fade-down"/>
+      <img src="/assets/background.png" alt="background" data-aos="fade-down" />
     </div>
-
+    <!-- inicio  -->
     <header>
       <nav class="header__nav">
         <h1 data-aos="zoom-in">Miriam</h1>
@@ -36,6 +37,27 @@
       <p data-aos="fade-left">José Angel Contreras Cervantes</p>
     </section>
 
+    <section class="countDown">
+      
+      <section class="countDown__frontPage" id="countDown__frontPage">
+        <div class="countDown__frontTitle">
+          <h2>¡Solo faltan!</h2>
+        </div>
+
+        <div id="count"></div>
+
+      </section>
+
+      <section class="countDown__backPage" id="countDown__backPage">
+        <div class="countDown__backTitle">
+          <h2>¡Es hoy (/OoO)/!</h2>
+        </div>
+      </section>
+
+    </section>
+
     <script src="/js/main.js" type="module"></script>
+    <script src="js/simplyCountdown.min.js"></script>
+    <script src="js/countDown.js"></script>
   </body>
 </html>
