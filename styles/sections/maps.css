@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  border: 10px solid var(--title-color);
+  outline: 10px solid var(--title-color);
 }
 
 .ceremony__ico-church {
