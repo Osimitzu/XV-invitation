@@ -1,0 +1,32 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  gap: 25px;
+}
+
+.header__nav h1 {
+  font-family: var(--title-dancing);
+  font-size: 85px;
+  font-weight: 900;
+  color: var(--light-pink);
+}
+
+.header__nav-subtitle {
+  font-family: var(--text-roboto);
+  font-size: 20px;
+  font-weight: 200;
+  color: var(--light-pink);
+  text-transform: uppercase;
+}
+
+.header__nav-subtitle2 {
+  font-family: var(--text-roboto);
+  font-size: 18px;
+  font-weight: 100;
+  color: var(--light-pink);
+}
