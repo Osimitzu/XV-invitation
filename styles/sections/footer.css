@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: row;
   height: 5vh;
+  overflow: hidden;
 }
 
 .brand__copyright {
