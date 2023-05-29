@@ -4,6 +4,7 @@
 
 /*Other css file imports*/
 @import url("sections/header.css");
+@import url('sections/intro.css');
 /*Other css file imports*/
 
 /* Variables */
@@ -15,10 +16,10 @@
   /* color palette */
   --pink: #f9ccca;
   --light-pink: #ffecef;
-  --hard-pink: #b37180;
+  --title-color: #b37180;
 
-  --text-1: #2f4858;
-  --text-2: #556076;
+  --text-color1: #2f4858;
+  --text-color2: #556076;
 }
 /* Variables */
 
