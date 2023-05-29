@@ -1,0 +1,96 @@
+.maps {
+  display: flexbox;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  border: 10px solid var(--title-color);
+}
+
+.ceremony__ico-church {
+  display: flex;
+  justify-content: center;
+}
+
+.ceremony__ico-church img {
+  width: 80px;
+}
+
+.ceremony__title {
+  font-family: var(--title-dancing);
+  font-size: 40px;
+  color: var(--title-color);
+  text-align: center;
+}
+
+.ceremony__ico-line {
+  display: flex;
+  justify-content: center;
+}
+
+.ceremony__ico-line img {
+  width: 40px;
+}
+
+.maps__ceremony p {
+  padding: 6px;
+  text-align: center;
+  font-family: var(--text-roboto);
+  font-size: 16px;
+  color: var(--text-color1);
+}
+
+.reception__ico-wine {
+  display: flex;
+  justify-content: center;
+}
+
+.reception__ico-wine img {
+  width: 80px;
+}
+
+.reception__title {
+  font-family: var(--title-dancing);
+  font-size: 40px;
+  color: var(--title-color);
+  text-align: center;
+}
+
+.reception__ico-line {
+  display: flex;
+  justify-content: center;
+}
+
+.reception__ico-line img {
+  width: 40px;
+}
+
+.maps__reception p {
+  padding: 6px;
+  text-align: center;
+  font-family: var(--text-roboto);
+  font-size: 16px;
+  color: var(--text-color1);
+}
+
+.maps__button {
+  display: flex;
+  justify-content: center;
+}
+
+.maps__button button {
+    width: 120px;
+
+    background: var(--light-pink);
+    opacity: .4;
+
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.maps__button a {
+    text-decoration: none;
+    color: var(--text-color1);
+    font-family: var(--text-roboto);
+}

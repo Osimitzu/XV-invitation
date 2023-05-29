@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>XV años Miriam</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="shortcut icon" href="assets/cupcake.ico" type="image/x-icon" />
   </head>
   <body>
     <!-- imagen de fondo -->
@@ -38,14 +39,12 @@
     </section>
 
     <section class="countDown">
-      
       <section class="countDown__frontPage" id="countDown__frontPage">
         <div class="countDown__frontTitle">
-          <h2>¡Solo faltan!</h2>
+          <h2 data-aos="fade-down">¡Solo faltan!</h2>
         </div>
 
-        <div id="count"></div>
-
+        <div id="count" data-aos="zoom-in"></div>
       </section>
 
       <section class="countDown__backPage" id="countDown__backPage">
@@ -53,8 +52,67 @@
           <h2>¡Es hoy (/OoO)/!</h2>
         </div>
       </section>
-
     </section>
+
+    <section class="maps">
+      <section class="maps__ceremony">
+        <div class="ceremony__ico-church" data-aos="zoom-in">
+          <img src="assets/iglesia.png" alt="church" />
+        </div>
+
+        <h2 class="ceremony__title" data-aos="flip-up">Ceremonia</h2>
+
+        <div class="ceremony__ico-line" data-aos="zoom-in">
+          <img src="assets/line.png" alt="line" />
+        </div>
+
+        <p data-aos="flip-right">Sabado, 17 de Junio 2023</p>
+        <p data-aos="flip-left">13:00 horas.</p>
+        <p data-aos="flip-right">"Santuario de Guadalupe"</p>
+        <p data-aos="flip-left">Hermenegildo Galeana 102, Obrera, 37340 León, Gto.</p>
+
+        <div class="maps__button" data-aos="zoom-in">
+          <button>
+            <a
+              href="https://goo.gl/maps/KuymTAFX8eCfwwZQ9?coh=178571&entry=tt"
+              target="_blank"
+            >
+              ABRIR MAPA
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <section class="maps__reception">
+        <div class="reception__ico-wine" data-aos="zoom-in">
+          <img src="assets/vino.png" alt="wine" />
+        </div>
+
+        <h2 class="reception__title" data-aos="flip-up">Recepción</h2>
+
+        <div class="reception__ico-line" data-aos="zoom-in">
+          <img src="assets/line.png" alt="line" />
+        </div>
+
+        <p data-aos="flip-right">Sabado, 17 de Junio 2023</p>
+        <p data-aos="flip-left">13:00 horas.</p>
+        <p data-aos="flip-right">"Santuario de Guadalupe"</p>
+        <p data-aos="flip-left">Hermenegildo Galeana 102, Obrera, 37340 León, Gto.</p>
+
+        <div class="maps__button" data-aos="zoom-in">
+          <button>
+            <a
+              href="https://goo.gl/maps/KuymTAFX8eCfwwZQ9?coh=178571&entry=tt"
+              target="_blank"
+            >
+              ABRIR MAPA
+            </a>
+          </button>
+        </div>
+      </section>
+    </section>
+
+    
 
     <script src="/js/main.js" type="module"></script>
     <script src="js/simplyCountdown.min.js"></script>
