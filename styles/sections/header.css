@@ -14,6 +14,7 @@ header {
 }
 
 .header__nav h1 {
+  text-align: center;
   font-family: var(--title-dancing);
   font-size: 85px;
   font-weight: 900;

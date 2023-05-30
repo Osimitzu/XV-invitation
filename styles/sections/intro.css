@@ -20,6 +20,7 @@
     font-family: var(--text-roboto);
     font-size: 16px;
     color: var(--text-color1);
+    padding: 6px;
 }
 
 
