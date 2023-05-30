@@ -21,7 +21,7 @@
 .gifts__title {
     text-align: center;
     font-family: var(--title-dancing);
-    font-size: 40px;
+    font-size: 25px;
     color: var(--title-color);
 }
 
@@ -44,3 +44,19 @@
 .gifts__icon img {
     width: 120px;
 }
+
+.wishlist__button button {
+    width: 100px;
+
+  background: var(--light-pink);
+  opacity: 0.4;
+
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.wishlist__button a {
+    text-decoration: none;
+}
+
