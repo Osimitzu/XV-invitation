@@ -4,9 +4,19 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    gap: 55px;
+    gap: 30px;
     overflow: hidden;
 }
+
+.gifts__ideas {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    gap: 30px;
+}
+
+
 
 .gifts__title {
     text-align: center;
@@ -27,8 +37,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .gifts__icon img {
-    width: 200px;
+    width: 120px;
 }
