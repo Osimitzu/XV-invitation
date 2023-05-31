@@ -12,6 +12,7 @@
   font-family: var(--title-dancing);
   font-size: 40px;
   color: var(--title-color);
+  padding-bottom: 15px;
 }
 
 .considerations p {
@@ -19,7 +20,7 @@
   font-family: var(--text-roboto);
   font-size: 16px;
   color: var(--text-color1);
-  padding: 20px;
+  padding: 50px;
 }
 
 .considerations__line {
@@ -32,4 +33,12 @@
 .considerations__line img {
   width: 100px;
   opacity: 0.7;
+}
+
+.considerations p:nth-child(3) {
+  padding: 15px;
+}
+
+.considerations p:nth-child(5) {
+  padding: 15px;
 }
