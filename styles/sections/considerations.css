@@ -35,10 +35,10 @@
   opacity: 0.7;
 }
 
-.considerations p:nth-child(3) {
-  padding: 15px;
-}
+/* .considerations__subtitle {
+  padding: 20px;
+} */
 
-.considerations p:nth-child(5) {
+.considerations p {
   padding: 15px;
 }
