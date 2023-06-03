@@ -59,8 +59,8 @@
 
 .simply-word {
   display: flex;
-  font-size: 15px;
   text-align: center;
+  font-size: 12px;
   font-family: var(--text-roboto);
   color: var(--text-color2);
   font-weight: 400;
