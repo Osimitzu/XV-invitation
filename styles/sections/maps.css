@@ -3,7 +3,7 @@
   flex: 1;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   overflow: hidden;
 }
 
@@ -79,18 +79,28 @@
 }
 
 .maps__button button {
-    width: 120px;
+  width: 120px;
 
-    background: var(--light-pink);
-    opacity: .4;
+  background: var(--light-pink);
+  opacity: 0.4;
 
-    border-radius: 10px;
-    border: none;
-    outline: none;
+  border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
 .maps__button a {
-    text-decoration: none;
-    color: var(--text-color1);
-    font-family: var(--text-roboto);
+  text-decoration: none;
+  color: var(--text-color1);
+  font-family: var(--text-roboto);
+}
+
+.maps__ceremony {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.maps__reception {
+  height: 100vh;
+  overflow: hidden;
 }
